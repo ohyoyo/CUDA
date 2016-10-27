@@ -1,0 +1,131 @@
+/*
+    type          : css
+    name          : style
+    author        : Yoann Di Maria
+    project       : CUDA
+    demo link     : http://yoanndm.fr/cuda/
+    source github : https://github.com/ohyoyo/CUDA
+*/
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none; /* no underline for link */
+}
+/* code base <section>*/
+section {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+section#welcome {
+    background-color: rgb(135, 80, 156);
+    height: 596px;
+}
+
+section#services {
+    background-color: rgb(23, 194, 164);
+    height: 747px;
+}
+
+section#team {
+    background-color: rgb(231, 241, 248);
+    height: 915px;
+}
+
+section#skills {
+    background-color: rgb(255, 255, 255);
+    height: 655px;
+}
+
+section#portfolio {
+    background-color: rgb(255, 221, 153);
+    height: 1423px;
+}
+
+section#testimonials {
+    background-color: rgb(215, 70, 128);
+    height: 895px;
+}
+
+section#getintouch {
+    background-color: rgb(60, 84, 153);
+    height: 819px;
+}
+/* section welcome 
+*/
+section#welcome nav#top {
+    height: 100px;
+}
+/* logo cuda */
+section#welcome #logo {
+    background-image: url("../img/logo/logo.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 117px;
+    height: 37px;
+    left: 200px;
+    top: 50px;
+}
+/* menu */
+section#welcome lu {
+    right: 200px;
+    top: 55px;
+    position: absolute;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: left;
+    list-style-type: none;
+    display: flex;
+}
+
+section#welcome lu a li {
+    color: rgb(255, 255, 255);
+}
+
+section#welcome lu li {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 3px 15px;
+    border-radius: 4px;
+}
+
+section#welcome lu li:hover {
+    background-color: rgb(100, 58, 121);
+    padding: 3px 15px;
+    border-radius: 4px;
+}
+
+section#welcome #welcometitre {
+    text-align: center;
+}
+
+section#welcome h1 {
+    color: rgb(247, 243, 234);
+    font-size: 33px;
+    margin-top: 110px;
+    margin-bottom: 65px;
+}
+
+section#welcome #welcometitre .buttonShap {
+    background-color: rgb(235, 125, 75);
+    width: 220px;
+    margin: 0 auto;
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+section#welcome #welcometitre .buttonShap:hover {
+    border-bottom-color: rgb(235, 125, 75);
+}
+/* end section welcome 
+*/
