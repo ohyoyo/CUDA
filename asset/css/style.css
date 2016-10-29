@@ -219,3 +219,98 @@ table#services td.title {
     font-size: 24px;
     padding-top: 25px;
 }
+/* end section services
+
+   section team 
+*/
+section#team {
+    color: rgb(60, 71, 97);
+    text-align: center;
+}
+
+section#team nav#top {
+    padding-top: 15px;
+}
+
+section#team nav#top h1 {
+    font-size: 33px;
+    top: 50px;
+    position: relative;
+}
+
+section#team nav#top #filet {
+    width: 87px;
+    margin: 0 auto;
+    top: 20px;
+    border-top: 4px solid rgb(0, 0, 0); 
+    opacity: 0.149;
+    position: relative;
+}
+
+section#team nav#top #mess {
+    margin: 0 auto;
+    font-size: 18px;
+    top: 35px;
+  color: rgb(60, 71, 97);
+    position: relative;
+  line-height: 1.444;
+  -moz-transform: matrix( 1,0,0,1.03213475092582,0,0);
+  -webkit-transform: matrix( 1,0,0,1.03213475092582,0,0);
+  -ms-transform: matrix( 1,0,0,1.03213475092582,0,0);
+}
+
+
+section#team table#team {
+    margin: 0 auto;
+    padding-top: 120px;
+    position: relative;
+    
+}
+section#team table#team td {
+    width: 192px;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 0 auto;
+}
+
+section#team table#team .picteam {
+    background-color: rgb(135, 135, 135);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+
+section#team table#team td.title {
+    font-size: 24px;
+    color: rgb(39, 40, 61);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.75;
+    padding-top: 40px;
+}
+
+section#team table#team td.desc {
+    color: rgb(48, 186, 231);
+    line-height: 1.125;
+    text-align: center;
+    padding-top: 15px;
+}
+
+section#team table#team td.text {
+    padding-top: 15px;
+}
+
+section#team table#team td.icn {
+    padding-top: 25px;
+}
+
+section#team table#team td a.icn {
+    margin-right: 4px;
+    margin-left: 4px
+    
+}
