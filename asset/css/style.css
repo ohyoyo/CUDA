@@ -57,6 +57,11 @@ section#getintouch {
     background-color: rgb(60, 84, 153);
     height: 819px;
 }
+
+section#mediasocial {
+    background-color: rgb(52, 75, 142);
+    height: 113px;
+}
 /* section welcome 
 */
 section#welcome nav#top {
@@ -495,4 +500,99 @@ section#portfolio .buttonShap {
 section#portfolio .buttonShap:hover {
     border-bottom-color: rgb(23, 194, 164);
 }
+/* end section portfolio
 
+   section testimonials
+*/
+section#testimonials {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+section#testimonials nav#top {
+    padding-top: 15px;
+}
+
+section#testimonials nav#top h1 {
+    font-size: 33px;
+    top: 50px;
+    position: relative;
+}
+
+section#testimonials nav#top #filet {
+    width: 87px;
+    margin: 0 auto;
+    top: 20px;
+    border-top: 4px solid rgb(0, 0, 0); 
+    opacity: 0.149;
+    position: relative;
+}
+
+section#testimonials nav#top #mess {
+    width: 520px;
+    margin: 0 auto;
+    font-size: 18px;
+    top: 35px;
+    position: relative;
+    line-height: 1.444;
+    -moz-transform: matrix( 1,0,0,1.03213475092582,0,0);
+    -webkit-transform: matrix( 1,0,0,1.03213475092582,0,0);
+    -ms-transform: matrix( 1,0,0,1.03213475092582,0,0);
+    
+}
+
+section#testimonials #testimonials {
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    width: 1006px;
+    position: relative;
+    padding-top: 120px;
+}
+
+section#testimonials #testimonials .table {
+    float: left;
+    margin-bottom: 140px;
+    margin-right: 85px;
+}
+
+section#testimonials #testimonials .table .pic {
+    width: 96px;
+    height: 96px;
+    border-radius: 48px;
+    background-color: #787878;
+    margin-right: 50px;
+    display: inline-block;
+    float: left;
+}
+
+section#testimonials #testimonials .table .desc {
+    float: left;
+    width: 272px;
+    text-align: left;
+}
+
+section#testimonials #testimonials .table .desc p {
+    width: 272px;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 1.486;
+    color: rgb(255, 255, 255);
+    line-height: 1.486;
+}
+section#testimonials #testimonials .table .desc .name {
+    display: block;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    line-height: 1.083;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+
+section#testimonials #testimonials .table .desc .mission {
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(255, 221, 153);
+}
