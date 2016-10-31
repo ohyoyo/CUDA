@@ -19,7 +19,7 @@ form, textarea:focus, input:focus, button:focus {
 }
 
 ::-webkit-input-placeholder:after{
-    color:red;
+    color: rgb(234, 67, 75);
     content:"*";
 }
 
